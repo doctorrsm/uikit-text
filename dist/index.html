@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>title</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="main.css">
+  <script src="uikit.js"></script>
+</head>
+<body>
+  <header>
+    
+    
+    <nav class="uk-navbar-container">
+    <div class="uk-container">
+        <div uk-navbar="uk-navbar">
+            <a class="uk-navbar-item uk-logo uk-navbar-left" href="#" aria-label="Back to Home">Logo</a>
+            <ul class="uk-navbar-nav uk-navbar-center">
+                <li>
+                    <a href="#">
+                        First link
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        Second link
+                    </a>
+                </li>
+                <li>
+                    <a href="#">Parent link
+                        <span uk-navbar-parent-icon="uk-navbar-parent-icon"></span>
+                    </a>
+                    <div class="uk-navbar-dropdown">
+                        <ul class="uk-nav uk-navbar-dropdown-nav">
+                            <li class="uk-active">
+                                <a href="#">Active</a>
+                            </li>
+                            <li>
+                                <a href="#">Item</a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <span class="uk-label uk-label-danger">new</span>
+                                    Item</a>
+                            </li>
+                        </ul>
+                    </div>
+                </a>
+            </li>
+        </ul>
+        <div class="uk-navbar-right">
+            <ul class="uk-navbar-nav">
+                <li>
+                    <a href="#" uk-icon="icon: user">User Name</a>
+                    <div class="uk-navbar-dropdown">
+                        <ul class="uk-nav uk-navbar-dropdown-nav">
+                            <li>
+                                <a href="#">First item</a>
+                            </li>
+                            <li>
+                                <a href="#">Second item</a>
+                            </li>
+                            <li>
+                                <a href="#">Third item</a>
+                            </li>
+                            <li>
+                                <a href="#">Выйти</a>
+                            </li>
+                        </ul>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </div>
+</div></nav>
+
+  </header>
+  <main>
+    
+    
+    <div class="uk-container uk-margin">
+        Контент
+    </div>
+
+  </main>
+  <footer>
+    
+    
+  </footer>
+</body>
+</html>
